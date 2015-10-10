@@ -46,7 +46,7 @@ function checkForm(form){
 	return false;
    }
    if(form.pass.value != ""){
-      var passCheck = new RegExp(/(?=.*[A-Z])(?=.*[\W_])(?=.*[0-9].{8,}/));
+      var passCheck = new RegExp(/(?=.*[A-Z])(?=.*[\W_])(?=.*[0-9].{8,}/);
       if(!passCheck.test(form.pass.value)){
          alert("PASSWORD NOT VALID!");
          form.pass.value = "";
