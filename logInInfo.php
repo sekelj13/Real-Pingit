@@ -14,7 +14,7 @@
 
 	   logMsg('Storing Data:'.$fname);
 	   $dbconn = connectToDB();
-	   $query = "insert into logIn_PingIt (first, last, dobM, dobD, dobY, email, pass) values ('$$fname', '$lname', '$dobM', '$dobD', '$dobY', '$email', '$pass');";
+	   $query = "INSERT into logIn_PingIt (fname, lname, dobM, dobD, dobY, email, pass) values ('$fname','$lname','$dobM','$dobD','$dobY','$email','$pass');";
 	   logMsg($query);
 	   $result = $dbconn->query($query);
 	   if(!$result){
