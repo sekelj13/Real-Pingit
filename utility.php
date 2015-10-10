@@ -1,6 +1,6 @@
 <?php
 function connectToDB(){   
-   $dbPath = "localhost";
+   $dbPath = "http://linus.highpoint.edu";
    $dbUser = "alouzaoweb";
    $dbPass = ")^(^#*)";
    $dbName = "csc2210_alouzao_db";
