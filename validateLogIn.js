@@ -32,7 +32,7 @@ function checkForm(form){
 	return false;
    }
    if(form.email.value != ""){
-      var emailCheck = new RegExp(/[a-zA-z0-9]@[a-zA-Z]+(\.[a-zA-Z]+)+/);
+      var emailCheck = new RegExp(/[a-zA-z0-9]+@[a-zA-Z]+(\.[a-zA-Z]+)+/);
       if(!emailCheck.test(form.email.value)){
          alert("EMAIL NOT VALID!");
          form.email.value = "";
@@ -46,7 +46,7 @@ function checkForm(form){
 	return false;
    }
    if(form.pass.value != ""){
-      var passCheck = new RegExp(/(?=.*[A-Z])(?=.*[\W_])(?=.*[0-9].{8,}/);
+      var passCheck = new RegExp(/(?=.*[A-Z])(?=.*[\W_])(?=.*[0-9]).{8,}/);
       if(!passCheck.test(form.pass.value)){
          alert("PASSWORD NOT VALID!");
          form.pass.value = "";
