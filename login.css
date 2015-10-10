@@ -1,0 +1,33 @@
+body {
+  background-color:	#60d060;
+}
+
+.nav {
+	font-size:	16px;
+}
+.jumbotron {
+	-webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+	-moz-columns: 100px 3; /* Firefox */
+	columns: 100px 3;
+	
+	background-image:		url("http://uscchannel.com/wp-content/uploads/2014/10/453768-cats-cute.jpg");
+	background-repeat:		no-repeat;
+	background-position:	center-left;
+	padding:				200px;
+	
+	text-align:		center-left;
+	font-size:		50px;
+	font-family:	Helvetica;
+	color:			#000;
+	
+}
+.form {
+	border-radius:	25px;
+}
+.paragraph {
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 100px 3;
+	
+	font-size: 20px;
+}
