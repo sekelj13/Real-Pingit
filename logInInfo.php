@@ -1,5 +1,6 @@
 <?php
 #include utility.php
+	require("../include/utility.php")
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 	   $fname = cleanInput($_POST["fname"]);
 	   $lname = cleanInput($_POST["lname"]);
