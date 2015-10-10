@@ -32,7 +32,7 @@ function checkForm(form){
 	return false;
    }
    if(form.email.value != ""){
-      var emailCheck = new RegExp(/[a-zA-z0-9+@[a-zA-Z]+(\.[a-zA-Z]+)+/);
+      var emailCheck = new RegExp(/[a-zA-z0-9]@[a-zA-Z]+(\.[a-zA-Z]+)+/);
       if(!emailCheck.test(form.email.value)){
          alert("EMAIL NOT VALID!");
          form.email.value = "";
